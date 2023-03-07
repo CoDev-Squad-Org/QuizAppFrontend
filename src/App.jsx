@@ -1,9 +1,8 @@
 import React from 'react';
-import { Register } from './pages/registerPage/Register';
 
 function App() {
 
-	return <Register/>;
+	return <div className="App">Hello world</div>;;
 }
 
 export default App;
