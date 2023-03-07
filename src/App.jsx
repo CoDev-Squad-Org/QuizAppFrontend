@@ -1,13 +1,8 @@
-import LoginForm from "./components/Login/LoginForm";
-
-import React from "react";
+import React from 'react';
 
 function App() {
-	return (
-		<div className="App">
-			<LoginForm />
-		</div>
-	);
+
+	return <div className="App">Hello world</div>;;
 }
 
 export default App;
