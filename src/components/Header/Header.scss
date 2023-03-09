@@ -1,0 +1,21 @@
+.header{
+    background-color: var(--blue);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    height: 10vh;
+    padding: 12px;
+}
+.header__title, .header__text{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.header__text{
+    justify-self: center;
+}
+
+.header__user{
+    justify-self: end;
+}
