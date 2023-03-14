@@ -1,0 +1,24 @@
+.returnNav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0 12px;
+}
+
+.returnNav__text {
+  justify-self: center;
+  color: var(--gray);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.returnNav__svg{
+  border: none;
+  background-color: transparent;
+  width: fit-content;
+}
+
+.returnNav__svg__icon {
+  color: var(--gray);
+}

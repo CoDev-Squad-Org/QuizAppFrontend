@@ -1,0 +1,29 @@
+.card {
+  background-color: rgb(207, 171, 255);
+  border-radius: 8px;
+  width: 80%;
+  height: 10rem;
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+  color: white;
+  padding: 12px;
+}
+.card__header {
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+  align-items: center;
+}
+
+.card__header__rating {
+  justify-self: end;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.card__lenguage {
+  display: grid;
+  place-content: center;
+  font-weight: 600;
+  font-size: 2rem;
+}

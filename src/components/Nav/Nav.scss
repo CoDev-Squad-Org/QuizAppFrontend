@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  width: 100vw;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
   background-color: white;
@@ -14,24 +14,24 @@
   border-radius: 25px;
   padding: 12px;
 }
-.nav__link:hover{
-    background-color: rgb(206, 204, 204);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+.nav__link:hover {
+  background-color: rgb(206, 204, 204);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .nav__link-active {
   background-color: var(--blue);
 }
 
-.nav__link-active:hover{
-    background-color: #314958;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+.nav__link-active:hover {
+  background-color: #314958;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .nav__link__icon {
   color: #777777;
 }
 
-.nav__link__icon-active{
-    color: white;
+.nav__link__icon-active {
+  color: white;
 }
