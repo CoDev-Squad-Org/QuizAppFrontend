@@ -4,7 +4,7 @@ export const Nav = () => {
   return (
     <nav className="nav">
       <a href="#" className="nav__link">
-        <i class="fa-solid fa-house nav__link__icon"></i>
+        <i className="fa-solid fa-house nav__link__icon"></i>
       </a>
       <a href="#" className="nav__link">
         <svg
@@ -19,7 +19,7 @@ export const Nav = () => {
         </svg>
       </a>
       <a href="#" className="nav__link nav__link-active">
-        <i class="fa-solid fa-plus nav__link__icon nav__link__icon-active"></i>
+        <i className="fa-solid fa-plus nav__link__icon nav__link__icon-active"></i>
       </a>
       <a href="#" className="nav__link">
         <svg
@@ -39,7 +39,7 @@ export const Nav = () => {
           width="16"
           height="16"
           fill="currentColor"
-          class="bi bi-person-fill nav__link__icon"
+          className="bi bi-person-fill nav__link__icon"
           viewBox="0 0 16 16"
         >
           <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
