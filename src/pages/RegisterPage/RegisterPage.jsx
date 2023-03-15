@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import { Button, TextField } from "@mui/material";
-import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import "./Register.scss";
+import "./RegisterPage.scss";
 
-export const Register = () => {
+const RegisterPage = () => {
   const [successMessage, setSuccessMessage] = useState(false);
-  const navigate = useNavigate();
 
   const { handleSubmit, handleChange, handleBlur, values, errors, touched } =
     useFormik({
@@ -132,3 +130,4 @@ export const Register = () => {
     </div>
   );
 };
+export default RegisterPage;
