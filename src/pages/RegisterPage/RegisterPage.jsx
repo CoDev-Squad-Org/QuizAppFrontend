@@ -3,10 +3,11 @@ import { Button, TextField } from "@mui/material";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import "./RegisterPage.scss";
+import { useNavigate } from "react-router-dom";
 
 const RegisterPage = () => {
   const [successMessage, setSuccessMessage] = useState(false);
-
+  const navigate = useNavigate();
   const { handleSubmit, handleChange, handleBlur, values, errors, touched } =
     useFormik({
       initialValues: {
