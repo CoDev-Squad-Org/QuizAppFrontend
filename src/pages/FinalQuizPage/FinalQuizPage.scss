@@ -1,0 +1,54 @@
+.finalQuizPage{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--orange);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+.finalQuizPage__text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.score{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.score__icon{
+    color: #FFD700;
+    margin-bottom: .5rem;
+
+}
+
+.score__text{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.score__text-light{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.star{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.star__icon{
+    color: #FFFF00;
+}
