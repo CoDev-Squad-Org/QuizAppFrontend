@@ -1,0 +1,35 @@
+.NotFoundPage{
+    width: 100;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background-color: var(--green_dark);
+    color: white;
+}
+
+.NotFoundPage__headerText{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.NotFoundPage__link{
+    background-color: black;
+    border-radius: 12px;
+    padding: 4px 8px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.NotFoundPage__link:hover{
+    box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+}
+
+.NotFoundPage__text{
+    text-align: center;
+    font-size: 1.3rem;
+}

@@ -8,7 +8,7 @@ import { Carrusel } from "../../components/Carrusel/Carrusel";
 const UserPage = () => {
   return (
     <div className="home">
-      <Header />
+      <Header color="blue"/>
       <ReturnNav text="Descubre" />
       <SearchInput />
       <section className="explorerSection">

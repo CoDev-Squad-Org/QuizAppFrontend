@@ -1,0 +1,48 @@
+.AnswerOption{
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(254, 127, 45, .2);
+    padding: 6px 12px;
+}
+
+.AnswerOption:hover{
+    background-color: rgb(254, 127, 45, .4);
+}
+
+.AnswerOption__text{
+    font-size: 14px;
+}
+
+.AnswerOption__actions{
+    display: flex;
+    justify-content: end;
+    gap: .3rem;
+}
+
+.AnswerOption__actions__button{
+    border: none;
+    display: grid;
+    place-content: center;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+}
+.AnswerOption__actions__button-delete{
+    background-color: rgb(255, 0, 0, .3);
+}
+.AnswerOption__actions__button-delete:hover{
+    background-color: rgb(255, 0, 0, .5);
+}
+
+.AnswerOption__actions__button-correct{
+    background-color: rgb(97, 155, 138, .5);
+}
+
+.AnswerOption__actions__button-correct:hover{
+    background-color: rgb(97, 155, 138, .8);
+}
+
+

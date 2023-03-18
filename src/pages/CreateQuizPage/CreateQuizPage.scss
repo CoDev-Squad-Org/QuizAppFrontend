@@ -1,0 +1,156 @@
+.CreateQuizPage{
+    display: grid;
+    grid-template-rows: 10vh 8vh 82vh;
+
+}
+
+.answerSection{
+
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    background-color: var(--orange);
+    padding: .8rem;
+    border-radius: 22px;
+    width: 98%;
+    height: 98%;
+}
+
+
+.selectSection{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    width: 98%;
+    height: 6vh;
+    gap: .5rem;
+    background-color: #FFE8BF;
+    border-radius: 8px;
+}
+
+.selectSection__select{
+    border: .5px solid var(--orange);
+    border-radius: 4px;
+    color: var(--orange);
+}
+
+.questionForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 98%;
+    background-color: white;
+    border-radius: 8px;
+    height: 8vh;
+}
+
+.questionForm__input{
+    width: 80%;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: transparent;
+    color: var(--orange);
+    border: none;
+}
+
+.questionForm__input:focus{
+    outline: none;
+}
+.questionForm__input::placeholder{
+    color: var(--orange);
+}
+
+.questionForm__button{
+    display: grid;
+    place-content: center;
+    padding: 4px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(97, 155, 138, .7);
+}
+.questionForm__button:hover{
+    background-color: rgb(97, 155, 138, .9);
+}
+
+.optionsSection{
+
+    overflow: scroll;
+    background-color: white;
+    width: 98%;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+    padding: .5rem;
+}
+
+.optionsSection::-webkit-scrollbar{
+    display: none;
+}
+.optionsContainer{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+
+}
+
+.optionsContainer::-webkit-scrollbar{
+    display: none;
+}
+.optionsSection__text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.optionsContainer__button{
+    display: grid;
+    place-content: center;
+    background-color: rgb(35, 61, 77, .4);
+    border: none;
+    border-radius: 14px;
+    width: 100%;
+
+}
+.optionsContainer__button:hover{
+    background-color: rgb(35, 61, 77, .6);
+}
+
+.actionSection{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actionSection__button{
+    border: none;
+    border-radius: 14px;
+    padding: 8px;
+    width: 45%;
+    color: white;
+
+}
+
+.actionSection__button-anterior{
+    background-color: rgb(254, 127, 45, .7);
+}
+
+.actionSection__button-anterior:hover{
+    background-color: rgb(254, 127, 45, .9);
+}
+.actionSection__button-siguiente{
+    background-color: rgb(97, 155, 138, .7);
+}
+.actionSection__button-siguiente:hover{
+    background-color: rgb(97, 155, 138, .9);
+}
