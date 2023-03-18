@@ -1,5 +1,4 @@
 .header{
-    background-color: var(--blue);
     color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -7,6 +6,15 @@
     height: 10vh;
     padding: 12px;
 }
+
+.header-blue{
+    background-color: var(--blue);
+}
+
+.header-orange{
+    background-color: var(--orange);
+}
+
 .header__title, .header__text{
     font-weight: 800;
     font-size: 24px;

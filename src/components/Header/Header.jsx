@@ -1,9 +1,9 @@
 import React from 'react';
 import './Header.scss';
 
-export const Header = () => {
+export const Header = ({color}) => {
   return (
-    <header className='header'>
+    <header className={`header header-${color}`}>
         <h1 className='header__title'>Codev</h1>
         <p className='header__text'>Quiz</p>
         <svg
