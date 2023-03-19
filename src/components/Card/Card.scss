@@ -1,12 +1,29 @@
 .card {
-  background-color: rgb(207, 171, 255);
   border-radius: 8px;
-  width: 80%;
+  width: 85%;
   height: 10rem;
   display: grid;
   grid-template-rows: 20% 60% 20%;
   color: white;
   padding: 12px;
+}
+
+.card-HTML{
+  background-color: rgb(228,103,39);
+
+}
+
+.card-Python{
+  background-color: rgb(3, 116, 183);
+}
+
+.card-CSS{
+  background-color: rgb(0, 162, 255);
+}
+
+.card-JavaScript{
+  background-color: rgb(239,216,29);
+  color: black;
 }
 .card__header {
   display: grid;

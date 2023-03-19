@@ -1,0 +1,23 @@
+.searchPage{
+    display: grid;
+    grid-template-rows: 10vh 6vh 9vh 65vh 10vh;
+}
+
+.searchPageSection{
+    justify-self: center;
+    width: 95%;
+    overflow: scroll;
+  
+    background-color: rgba(241, 239, 239, 0.979);
+    padding: 12px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.searchPageSection::-webkit-scrollbar{
+    display: none;
+}

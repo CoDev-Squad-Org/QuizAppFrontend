@@ -1,9 +1,9 @@
 import React from "react";
 import "./Card.scss";
 
-export const Card = ({ lenguage, level }) => {
+export const Card = ({ lenguage, level}) => {
   return (
-    <div className="card">
+    <div className={`card card-${lenguage}`}>
       <div className="card__header">
         <svg
           xmlns="http://www.w3.org/2000/svg"
