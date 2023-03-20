@@ -1,8 +1,13 @@
 import React from 'react'
+import { Nav } from '../../components/Nav/Nav'
+import TableRank from '../../components/TableRank/TableRank'
 
 const RankingPage = () => {
   return (
-    <div>RankingPage</div>
+    <div>
+      <TableRank />
+      <Nav  />
+    </div>
   )
 }
 

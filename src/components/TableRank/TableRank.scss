@@ -1,0 +1,13 @@
+.table{
+    display: flex;
+    justify-content: center;
+}
+.table-head{
+    background: #000;
+}
+.row:nth-of-type(odd){
+    background: #919da5;
+}
+.row:nth-of-type(even){
+    background: #c8ced2;
+}
