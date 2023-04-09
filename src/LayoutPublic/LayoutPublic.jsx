@@ -1,11 +1,14 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
+import { Context } from "../components/context/Context";
 
 const LayoutPublic = () => {
 	return (
-		<div>
-			<Outlet />
-		</div>
+		<Context>
+			<div>
+				<Outlet />
+			</div>
+		</Context>
 	);
 };
 
